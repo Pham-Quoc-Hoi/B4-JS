@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Link css bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- BÀI 1: XUẤT 3 SỐ NHẬP VÀO THEO THỨ TỰ TĂNG DẦN -->
+    <div class="Ascending">
+        <div class="card-header bg-info text-center">
+            XUẤT 3 SỐ NHẬP VÀO THEO THỨ TỰ TĂNG DẦN
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-4">
+                    <div class="form-group">
+                        <!-- <label for="">CreditCard</label> -->
+                        <input id="num1" type="text" class="form-control" placeholder="Nhập số thứ 1">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <input id="num2" type="text" class="form-control" placeholder="Nhập số thứ 2">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <input id="num3" type="text" class="form-control" placeholder="Nhập số thứ 3">
+                    </div>
+                </div>
+                <button id="btnSapXep" class="btn btn-primary ali">Sắp xếp</button>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-4">
+                    <div class="form-group">
+                        <!-- <label for="">CreditCard</label> -->
+                        <input id="num4" type="text" class="form-control" placeholder="Nhập số thứ 1">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <input id="num5" type="text" class="form-control" placeholder="Nhập số thứ 2">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <input id="num6" type="text" class="form-control" placeholder="Nhập số thứ 3">
+                    </div>
+                </div>
+                <button id="btnSapXep2" class="btn btn-primary ali">Sắp xếp</button>
+            </div>
+        </div>
+        <div id="infoSapXep" class="card-footer text-muted">
+            👉
+        </div>
+        <hr>
+
+    </div>
+    <br>
+
+    <!-- BÀI 2: CHÀO HỎI THÀNH VIÊN GIA ĐÌNH -->
+    <div class="Hello">
+        <div class="row">
+            <div class="col-4">
+                <div class="card-header bg-info">
+                    XIN CHÀO!
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <select id="hel" class="form-control">
+                            <option value="">Chọn thành viên</option>
+                            <option value="B">Bố</option>
+                            <option value="M">Mẹ</option>
+                            <option value="A">Anh Trai</option>
+                            <option value="E">Em Gái</option>
+                        </select>
+                    </div>
+                    <button id="btnHello" class="btn btn-primary">Gửi lời chào</button>
+                </div>
+                <div id="Hello" class="card-footer text-muted">
+                    👉
+                </div>
+                <hr>
+            </div>
+
+        </div>
+    </div>
+    <br>
+
+
+    <!-- BÀI 3: ĐẾM SỐ CHẲN LẼ -->
+    <div class="countNub">
+        <div class="card-header bg-info text-center">
+            ĐẾM SỐ CHẲN LẼ
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-4">
+                    <div class="form-group">
+                        <input id="numb1" type="text" class="form-control" placeholder="Nhập số thứ 1">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <input id="numb2" type="text" class="form-control" placeholder="Nhập số thứ 2">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <input id="numb3" type="text" class="form-control" placeholder="Nhập số thứ 3">
+                    </div>
+                </div>
+            </div>
+            <button id="btnCount" class="btn btn-primary">Đếm</button>
+        </div>
+        <div id="infoCount" class="card-footer text-muted">
+            👉
+        </div>
+        <hr>
+
+    </div>
+    <br>
+
+    <!-- BÀI 4: ĐOÁN HÌNH TAM GIÁC -->
+    <div class="triangle">
+        <div class="card-header bg-info text-center">
+            ĐOÁN HÌNH TAM GIÁC
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-4">
+                    <div class="form-group">
+                        <input id="canh1" type="text" class="form-control" placeholder="Nhập độ dài cạnh 1">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <input id="canh2" type="text" class="form-control" placeholder="Nhập độ dài cạnh 2">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <input id="canh3" type="text" class="form-control" placeholder="Nhập độ dài cạnh 3">
+                    </div>
+                </div>
+            </div>
+            <button id="btnTriA" class="btn btn-primary">Dự đoán</button>
+        </div>
+        <div id="infoTriA" class="card-footer text-muted">
+            👉
+        </div>
+        <hr>
+    </div>
+    </div>
+    <br>
+
+    <!-- Link JS bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+    <!-- Link main js -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
